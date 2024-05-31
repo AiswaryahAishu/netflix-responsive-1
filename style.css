@@ -1,0 +1,490 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+button{
+    cursor: pointer;
+    border:none ;
+}
+#backimg{
+    background:url(https://assets.nflxext.com/ffe/siteui/vlv3/41c789f0-7df5-4219-94c6-c66fe500590a/3149e5eb-4660-4e3d-9e65-b1e615229c64/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_large.jpg) no-repeat;;
+    background-size: cover;
+    height: 730px;
+    border-bottom: 8px solid #222;
+}
+.background{
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(0deg rgba(0 0 0 0.8) transparent 60% rgba(0 0 0 0.8));
+    height: 100.1%;
+}
+.navbar{
+    display: flex;
+    padding: 20px 50px;
+    margin-bottom: 100px;
+}
+.logo{
+    
+    width: 16rem;
+    height: 4rem;
+    margin-right: auto;
+}
+#language{
+    margin-right: 1.375rem;
+    border-radius: 5px;
+    background: transparent;
+    padding: 0 10px;
+    height: 40px;
+    width: 140px;
+   
+}
+option{
+    background-color: gray;
+}
+.signin{
+    background-color: #e50914;
+    font-size: 1rem;
+    padding: 0 20px;
+    border-radius: 5px;
+    height: 40px;
+    
+   
+}
+.main{
+    text-align: center;
+    padding: 75px 20px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.main h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.main p{
+    font-size: 1.625rem;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-left: 148px;
+    padding-right: 1px;
+   
+    
+}
+h4{
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 19.2px;
+    font-weight: 300;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.form div{
+    width: 80%;
+    height: 3rem;
+    position: relative;
+}
+.form input{
+    height: 100%;
+    width: 93%;
+    background: transparent;
+    
+}
+input:focus{
+    outline: none;
+}
+.form button{
+    width: 250px;
+    background-color: #e50914;
+    font-size: 1.875rem;
+}
+.form label{
+    position:absolute ;
+    left: 1px;
+    color: gray;
+    background: transparent;
+    align-items: center;
+}
+.form label #email{
+    text-align: center;
+    
+}
+
+.TV{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding: 70px 45px;
+}
+.container{
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+h2{
+    font-size: 3.25rem;
+}
+.tvclip{
+    width: 45%;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+.description{
+    width: 50%;
+}
+.description p{
+    font-size: 1.25rem;
+    margin: 15px;
+    margin-left: 0;
+    margin-top: 20px;
+}
+.tvclip img{
+    width: 100%;
+    z-index: 10;
+    max-width: 600px;
+    position: relative;
+}
+#Tvvideo{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 87%;
+    height: 55%;
+}
+
+.phonesection{
+    background-color: black;
+    padding: 20px;
+    border-bottom: 9px solid #222;
+
+}
+.stranger{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid hsla(0, 0%, 100%, 0.25);
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    transform: translate(-50%);
+
+}
+.stranger img{
+    width: 50px;
+    margin-right: 10px;
+
+}
+.stranger span{
+    color: #0071eb;
+    margin-right: 50px;
+}
+.mobile{
+    position: relative;
+}
+
+.mobile img{
+    max-width: 350px;
+
+}
+.phonesection .container{
+    justify-content: space-between;
+}
+
+.devices{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding-top: 50px;
+}
+#devicesclip{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    max-width: 63%;
+    max-height: 47%;
+    top: 34%;
+    transform: translate(-50%, -50%);
+}
+.kids{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding-top: 50px;
+    min-height:500px ;
+}
+.kids img{
+    min-width: 45%;
+}
+.kids .description{
+    width: 55%;
+
+}
+
+.qst{
+    background-color: black;
+    border-bottom: 9px solid #222;
+    padding: 50px;
+}
+.sm-container{
+    margin: 0 auto;
+    max-width: 925px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.sm-container ul{
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+ li button{
+    background-color:  #303030;
+    width: 90%;
+    text-align: start;
+    padding: 20px;
+    font-size: 1.625rem;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+}
+ li button img{
+    float: right;
+    color: white;
+}
+li div{
+    width: 90%;
+    text-align: left;
+    background-color: #303030;
+    margin: auto;
+    font-size:1.625rem;
+    padding: 20px;
+    margin-bottom: 5px;
+
+}
+li div p:first-child{
+    margin-bottom: 30px;
+}
+
+.sm-container h2{
+    font-size: 3rem;
+    margin-bottom: 50px;
+
+}
+.container{
+    max-width: 1170px;
+    background-color: black;
+    margin: auto;
+    padding: 40px;
+    color: gray;
+}
+.row{
+    display: flex;
+}
+ul{
+    list-style: none;
+    font-size: 15px;
+    color: gray;
+}
+li{
+    padding: 10px;
+
+}
+.footer{
+    background-color: black;
+
+}
+.footer-col{
+    width: 25%;
+    padding: 22px 48px;
+}
+.content p .net{
+    margin-top: 20px;
+}
+.footer-col ul li{
+    display: block;
+}
+
+
+
+ 
+
+
+
+@media(max-width:1450px){
+    .main h1{
+        font-size: 3rem;
+    }
+    .form div{
+        width: 450px;
+        height: 60px;
+
+        
+    }
+    .form button{
+        width: 212px;
+        font-size: 1.65re;
+    }
+}
+@media(max-width:950px){
+    .logo{
+        width: 108px;
+        height: 35px;
+    }
+    .form{
+        display: block;
+    }
+    .form div{
+        height: 50px;
+        width: 100%;
+        margin: auto;
+    }
+    .form button{
+        font-size: 1rem;
+        height: 40px;
+        width: 130px;
+        margin-top: 15px;
+    }
+    h3{
+        font-size: 1.25rem;
+        width: 500px;
+    }
+    .container{
+        display: block;
+        text-align: center;
+        padding: 0 30px;
+
+    }
+    .tvclip, .description{
+        width: 100%;
+    }
+    .kids, .description{
+        width: 100%;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    .description p{
+        font-size: 1.25rem;
+    }
+    .phonesection .container, .kids .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .kids img{
+        max-width: 80%;
+        margin-bottom: 30px;
+    }
+    .question div, .question button{
+        font-size: 1.25rem;
+    }
+    .question button{
+        padding: 15px;
+    }
+    .question button img{
+        width: 20px;
+    }
+    .sm-container form{
+        width: 70%;
+        margin: auto;
+    }
+    .sm-container h2{
+        margin-bottom:10px;
+    }
+    .sm-container{
+        font-size: 1rem;
+    }
+    .content li{
+        width: 33.4%;
+    }
+    /*.footer-col{
+        width: 35%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }*/
+
+    
+}
+@media(max-width:550px){
+    .main h1{
+        font-size: 1.25rem;
+    }
+    .main{
+        padding-bottom: 20px;
+        max-width: calc(100% - 3rem);
+        display: flex;
+        flex-direction: column;
+    }
+    .main p h3{
+        font-size: 1.5rem;
+        max-width: calc(100% - 3rem);
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        margin: 0;
+        padding: 20px 15px;
+    }
+    #backimg{
+        height: 485px;
+    }
+    .logo{
+        width: 88px;
+    }
+    .navbar #language{
+        width: 100px;
+        height: 28px;
+    }
+    .signin{
+        width: 60px;
+        height: 28px;
+    }
+    h2{
+        font-size: 1.625rem;
+    }
+    .description p{
+        font-size: 1.125rem;
+    }
+    .TV, .phonesection, .devices, .kids{
+        padding: 50px 0;
+    }
+    #mobiledevice{
+        max-width: 300px;
+    }
+    .stranger{
+        font-size: 13px;
+    }
+    .stranger img{
+        width: 34px;
+    }
+    .qst{
+        padding: 40px 0;
+    }
+    .question dic, .question button{
+        width: 100%;
+    }
+    .sm-container form{
+       padding: 0 20px;
+    }
+    .sm-container h2{
+        font-size: 1.625rem;
+        margin-bottom: 10px;
+    }
+    .sm-container ul{
+        margin-bottom: 20px;
+    }
+    .footer-col{
+        width: 100%;
+    }
+}
+
+
+
+  
+  
+  
